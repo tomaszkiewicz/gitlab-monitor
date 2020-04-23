@@ -22,6 +22,7 @@ resources:
 ingress:
   enabled: false
   domain: gitlab-monitor.example.com
+  annotations: {}
   tls: {}
 config: |
   {
